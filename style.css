@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    margin: 50px 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid gray; */
+    border-radius: 20px;
+    box-shadow: -2px 0px 20px 0px;
+    background-color: rgb(218, 218, 218);
+}
+
+.heading h1{
+    font-weight: 900;
+    font-size: 3em;
+    color: #5e4040;
+}
+
+.input-section .input-area {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: grey 2px 2px 2px 0px;
+    border: 2px solid rgb(192, 226, 236);
+}
+
+.input-section .input-area:focus {
+    border: 2px solid rgb(143, 216, 238);
+    box-shadow: grey 2px 2px 10px 0px;
+    outline: none
+}
+
+.input-section .add-input {
+    margin-left: 20px;
+    padding: 7px;
+    width: 100px;
+    background-color: rgb(32, 196, 46);
+    font-size: 1em;
+    font-weight: 500;
+    border: 2px solid rgb(32, 196, 46);
+    border-radius: 5px;
+    box-shadow: grey 2px 2px 2px 0px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.input-section .add-input:hover {
+    background-color: white;
+    border: 2px solid rgb(32, 196, 46);
+    border-radius: 5px;
+    box-shadow: grey 2px 2px 10px 0px;
+    color: rgb(32, 196, 46);
+}
+
+.input-list {
+    margin-top: 20px;
+}
+
+.task-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.singale-todo {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.input-list .input-data li {
+    list-style: none;
+    font-size: 1.2em;
+    color: rgb(48, 48, 48);
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.input-list .input-data .delete-btn {
+    margin-left: 50px;
+    padding: 2px 10px;
+    background-color: rgb(196, 37, 32);
+    border: 2px solid rgb(196, 37, 32);
+    border-radius: 5px;
+    box-shadow: grey 2px 2px 2px 0px;
+    color: #ffffff;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.input-list .input-data .delete-btn:hover {
+    margin-left: 50px;
+    padding: 2px 10px;
+    background-color: rgb(196, 37, 32);
+    border: 2px solid rgb(196, 37, 32);
+    border-radius: 5px;
+    box-shadow: grey 2px 2px 10px 0px;
+    color: #ffffff;
+    transition: all .2s;
+}
